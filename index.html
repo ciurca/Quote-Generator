@@ -17,6 +17,7 @@
   <button class="btn btn-dark" onclick="generateQuote()">Generate quote</button>
 </div>
 <br>
+<div id="talltweets" style="background-color: white;">
 <figure class="text-center">
   <blockquote class="blockquote" id="bquote" style="padding: 5px;">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
@@ -25,11 +26,22 @@
     Someone famous
   </figcaption>
 </figure>
+		  </div>
 <a target="_blank" id="tweetquote" href="https://twitter.com/intent/tweet?text=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. - Someone Famous" class="share-btn twitter">
 		Tweet quote
 </a>
+<div class="d-flex justify-content-center">
+  <button class="btn-sm btn-dark" onclick="screenshotQuote()">Generate Image</button>
+</div>
   </div>
-    <!-- Optional JavaScript -->
+  <br>
+<!-- The PNG image will be added here -->
+<div> 
+ <img class="border border-success" id="textScreenshot" src="">
+</div>
+
+<!-- Include the HTMl2Canvas library -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
     <!-- Popper.js first, then Bootstrap JS -->
 <script type="text/javascript" src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

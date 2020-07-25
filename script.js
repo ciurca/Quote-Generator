@@ -14,3 +14,11 @@ fetch('quotes.json', {
  document.getElementById("bfrom").innerText = quoteAuthor;
 });
 }
+function screenshotQuote() {
+  html2canvas(document.getElementById("talltweets"), {
+    onrendered: function(canvas) {
+      var screenshot = canvas.toDataURL("image/png");
+      document.getElementById("textScreenshot").setAttribute("src", screenshot);
+    }
+  });
+}
