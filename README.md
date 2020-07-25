@@ -4,8 +4,8 @@ This is a very basic quote generator that takes business quotes from [this](http
 
 ## TO-DOs
 
-- [ ] add Tweet quote functionality
+- [x] add Tweet quote functionality
 - [ ] add more quotes, beyond business/entrepreneurship
-- [ ] add 'Download as image' functionality (also, research what library could do this)
+- [x] add 'Download as image' functionality (also, research what library could do this) - kind of added it
 
 Wanna talk? DM me [@raduciurca](https://twitter.com/raduciurca).
